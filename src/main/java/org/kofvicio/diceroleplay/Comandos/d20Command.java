@@ -19,13 +19,20 @@ public class d20Command implements CommandExecutor {
         Random random = new Random();
         String resultado = String.valueOf(random.nextInt(20)+1);
         int dado = Integer.parseInt(resultado);
+
         if (Sender instanceof Player player) {
-            String nombre = String.valueOf(player.getDisplayName());
-            if (dado > 10) {
-                Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + nombre +ChatColor.YELLOW+" ha sacado "+ ChatColor.GREEN+ ChatColor.BOLD+ resultado);
+
+            if (player.hasPermission("DiceRoleplay.dice")) {
+                String nombre = String.valueOf(player.getDisplayName());
+                if (dado > 10) {
+                    Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + nombre +ChatColor.YELLOW+" ha sacado "+ ChatColor.GREEN+ ChatColor.BOLD+ resultado);
+                } else {
+                    Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + nombre + ChatColor.YELLOW+" ha sacado "+ ChatColor.RED + ChatColor.BOLD + resultado);
+                };
             } else {
-                Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + nombre + ChatColor.YELLOW+" ha sacado "+ ChatColor.RED + ChatColor.BOLD + resultado);
-            };
+                player.sendMessage( ChatColor.RED +"no Tienes Permisos");
+            }
+
         } else {
             return false;
         }

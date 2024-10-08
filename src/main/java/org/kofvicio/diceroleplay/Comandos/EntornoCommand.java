@@ -21,7 +21,7 @@ public class EntornoCommand implements CommandExecutor {
 
 
                 for (Player jugador : Bukkit.getOnlinePlayers()) {
-                    if (jugador.hasPermission("permission.DiceRoleplay.EntornoListen")) {
+                    if (jugador.hasPermission("DiceRoleplay.EntornoListen")) {
                         jugador.sendMessage(ChatColor.DARK_AQUA +String.join(" ", args)+
                                 ChatColor.YELLOW+"Ubicacion: "+ x+" " +" "+ y+" "+ z);
                         jugador.playSound(jugador.getLocation(), Sound.ENTITY_FIREWORK_ROCKET_LAUNCH,1 ,1);

@@ -6,10 +6,12 @@ author: Kofvixio
 website: x.com/GremioVortex
 
 permissions:
-  permission.DiceRoleplay.EntornoListen:
+  DiceRoleplay.EntornoListen:
       default: false
       description: Para escuchar meensajes
-
+  DiceRoleplay.dice:
+      default: false
+      description: Para habilitar dados
 
 commands:
   d20:
