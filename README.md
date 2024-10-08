@@ -16,5 +16,6 @@
  tiene un permiso que es: `diceroleplay.dice`
 
 - - -
-
+## Descarga:
+[DiceRoleplay 1.20.x](https://raw.githubusercontent.com/codigogon/diceroleplay/main/build/libs/DiceRoleplay-2.2-dev.jar)
 <p>y eso es todo por ahora, si te gusto o te gusta mi plugin(el primero que hago en mi vida) me ayudarias dandole una estrellita al repo n.n tambien acepto sugerencias y una vez mas, gracias por user mi plugin n.n</p>
