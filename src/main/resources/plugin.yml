@@ -1,0 +1,27 @@
+name: DiceRoleplay
+version: '${version}'
+main: org.kofvicio.diceroleplay.DiceRoleplay
+api-version: '1.20'
+author: Kofvixio
+website: x.com/GremioVortex
+
+permissions:
+  permission.DiceRoleplay.EntornoListen:
+      default: false
+      description: Para escuchar meensajes
+
+
+commands:
+  d20:
+    description: comando para lanzar dados
+    usage: /d20
+    aliases:
+      - dado
+  do:
+    description: comando de rol de lo que esta pensando
+    usage: /do <Action>
+    aliases:
+      - do
+  Entorno:
+    description: comando para avisar de un acto ilegal
+    usage: /entorno <mensaje>

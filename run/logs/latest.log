@@ -1,0 +1,41 @@
+[21:46:50] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:46:51] [ServerMain/INFO]: Loaded 7 recipes
+[21:46:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:46:51] [Server thread/INFO]: Loading properties
+[21:46:52] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[21:46:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:46:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:46:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[21:46:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[21:46:52] [Server thread/INFO]: Default game type: SURVIVAL
+[21:46:52] [Server thread/INFO]: Generating keypair
+[21:46:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:46:52] [Server thread/INFO]: Using default channel type
+[21:46:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:46:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:46:52] [Server thread/INFO]: [DiceRoleplay] Loading server plugin DiceRoleplay v2.2
+[21:46:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:46:52] [Server thread/INFO]: Preparing level "world"
+[21:46:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:46:53] [Server thread/INFO]: Time elapsed: 309 ms
+[21:46:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:46:53] [Server thread/INFO]: Time elapsed: 62 ms
+[21:46:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:46:53] [Server thread/INFO]: Time elapsed: 62 ms
+[21:46:53] [Server thread/INFO]: [DiceRoleplay] Enabling DiceRoleplay v2.2
+[21:46:53] [Server thread/INFO]: [DiceRoleplay] [STDOUT] plugin funcionando
+[21:46:53] [Server thread/WARN]: Nag author(s): '[Kofvixio]' of 'DiceRoleplay v2.2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:46:53] [Server thread/INFO]: Running delayed init tasks
+[21:46:53] [Server thread/INFO]: Done (1.998s)! For help, type "help"
+[21:46:53] [Server thread/INFO]: Timings Reset
+[21:46:59] [User Authenticator #0/INFO]: UUID of player KofvicioCreed is 2592f26a-25ec-47f0-8cfe-51f8df760b98
+[21:46:59] [Server thread/INFO]: KofvicioCreed joined the game
+[21:46:59] [Server thread/INFO]: KofvicioCreed[/192.168.0.91:58228] logged in with entity id 188 at ([world]-71.11411902060622, 64.0, 493.92418569417185)
+[21:47:05] [Server thread/INFO]: KofvicioCreed issued server command: /entorno aaa
+[21:47:07] [Server thread/INFO]: KofvicioCreed issued server command: /entorno aaa
+[21:47:11] [Server thread/INFO]: KofvicioCreed issued server command: /entorno aaa
+[21:47:14] [Server thread/INFO]: KofvicioCreed issued server command: /entorno aaa
+[21:47:33] [Server thread/INFO]: KofvicioCreed lost connection: Disconnected
+[21:47:33] [Server thread/INFO]: KofvicioCreed left the game
